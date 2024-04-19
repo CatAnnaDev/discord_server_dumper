@@ -1,0 +1,326 @@
+[
+  {
+    "size": 474,
+    "server_id": "1018848164196913242",
+    "server_name": "Dev Girl Society",
+    "server_channels": [
+      {
+        "channel_type": "Category",
+        "channel_id": "1022862216132821022",
+        "channel_name": "Projets"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1114240666143301694",
+        "channel_name": "bridge-twitch"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1069601170672332800",
+        "channel_name": "〖📆〗plannings"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1021790668475080815",
+        "channel_name": "〖🤖〗bot-command"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1179418258496040991",
+        "channel_name": "getting-started"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1180048099289333760",
+        "channel_name": "Advent-of-Code"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1221048767210455131",
+        "channel_name": "Stream"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1032781713862049794",
+        "channel_name": "『aled』"
+      },
+      {
+        "channel_type": "Forum",
+        "channel_id": "1083155724525371462",
+        "channel_name": "〖📌〗liens-utiles"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1020432429992923198",
+        "channel_name": "twitch et ytb"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1020432626160521338",
+        "channel_name": "github"
+      },
+      {
+        "channel_type": "Forum",
+        "channel_id": "1085586413120131142",
+        "channel_name": "〖🆘〗help-me"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1022609704599441408",
+        "channel_name": "〖📄〗articles"
+      },
+      {
+        "channel_type": "Stage",
+        "channel_id": "1083763772281344082",
+        "channel_name": "〖🎤〗Interview"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1168176549879627928",
+        "channel_name": "blabla-💅"
+      },
+      {
+        "channel_type": "Announce",
+        "channel_id": "1032942037181411328",
+        "channel_name": "〖🟪〗alert-twitch"
+      },
+      {
+        "channel_type": "Forum",
+        "channel_id": "1206248669213364325",
+        "channel_name": "photos-pour-visuels"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1037406688594112512",
+        "channel_name": "Stream'Her"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1018848164196913245",
+        "channel_name": "〖⛔〗règlement"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1129092028949594384",
+        "channel_name": "〖💻〗setup"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1034520599101448273",
+        "channel_name": "Stats"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1020086365783867488",
+        "channel_name": "〖🔧〗issue-github"
+      },
+      {
+        "channel_type": "Forum",
+        "channel_id": "1032944587309846538",
+        "channel_name": "〖🧰〗vos-projets"
+      },
+      {
+        "channel_type": "Forum",
+        "channel_id": "1168176501544452156",
+        "channel_name": "organisons-nous"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1019001082745200660",
+        "channel_name": "『modo』"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1037406823071875132",
+        "channel_name": "Vocal, par HASARD"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1018910040419217489",
+        "channel_name": "〖🌐〗déballe-tout"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1083804208500842536",
+        "channel_name": "〖🎥〗Strem Voc"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1221048719596851212",
+        "channel_name": "Clash of code multi"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1018848164196913244",
+        "channel_name": "Salons vocaux"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1103765976195010701",
+        "channel_name": "〖🎮〗soirée-jeux"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1019676589136564365",
+        "channel_name": "〖🔔〗github-notifs"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1018963470382805025",
+        "channel_name": "Modo"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1032750688603746334",
+        "channel_name": "〖🎨〗paint"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1037828220042612817",
+        "channel_name": "〖🪓〗minecraft"
+      },
+      {
+        "channel_type": "Announce",
+        "channel_id": "1032942236083699752",
+        "channel_name": "〖🔺〗alert-ytb"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1020086007162470422",
+        "channel_name": "〖🎬〗clips"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1179417842655952916",
+        "channel_name": "annonce-minecraft"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1020431709654745140",
+        "channel_name": "〖💡〗idées-et-suggestions"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1020773877053407242",
+        "channel_name": "〖🔊〗blablatage"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1034521803462291647",
+        "channel_name": "GitHub Followers: 24"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1037406736929275957",
+        "channel_name": "discussion"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1034520700985294932",
+        "channel_name": "Twitch Followers: 2,287"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1022862330343735387",
+        "channel_name": "cdr"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1018963773194776616",
+        "channel_name": "『log』"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1168176762459529378",
+        "channel_name": "stream"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1175012643350773840",
+        "channel_name": "Minecraft"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1175012725722730617",
+        "channel_name": "config-server"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1184869060379414608",
+        "channel_name": "〖💌〗date․now❨❩"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1168176201102278686",
+        "channel_name": "Soiré du Lundi Matin"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1032943452318609438",
+        "channel_name": "Bienvenue"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1018848164196913243",
+        "channel_name": "Salons textuels"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1032781907060072498",
+        "channel_name": "〖💤〗ZZZZZZZzzzzzzzzz"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1034520825866489906",
+        "channel_name": "Server Boosts: 0"
+      },
+      {
+        "channel_type": "Forum",
+        "channel_id": "1180048139927945246",
+        "channel_name": "2023"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1034831222305726545",
+        "channel_name": "► Click ici pour voc ◄"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1171055310509711450",
+        "channel_name": "〖📢〗annonces"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1034522255419519056",
+        "channel_name": "Ytb Subscribers: 45"
+      }
+    ]
+  },
+  {
+    "size": 1,
+    "server_id": "1229368040148303932",
+    "server_name": "GxOne's server",
+    "server_channels": [
+      {
+        "channel_type": "Category",
+        "channel_id": "1229368040148303933",
+        "channel_name": "Text Channels"
+      },
+      {
+        "channel_type": "Category",
+        "channel_id": "1229368040148303934",
+        "channel_name": "Voice Channels"
+      },
+      {
+        "channel_type": "Text",
+        "channel_id": "1229368040148303935",
+        "channel_name": "general"
+      },
+      {
+        "channel_type": "Voice",
+        "channel_id": "1229368040148303936",
+        "channel_name": "General"
+      }
+    ]
+  }
+]
