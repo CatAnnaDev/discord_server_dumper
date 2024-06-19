@@ -3,6 +3,7 @@ use std::fs::File;
 use reqwest::Client;
 use std::io::Write;
 use std::path::PathBuf;
+use serde::{Deserialize, Serialize};
 use serde_json::from_str;
 
 use crate::message::MessageStruct;
@@ -35,8 +36,9 @@ impl RecursiveDump<'_> {
             msg_dump.reverse();
             let path = PathBuf::new().join(format!("dump/{}/",&self.serv_name)) ;
             let _ = fs::create_dir_all(&path);
-            println!("{}", path.display());
-            let mut dump_file = File::create(&path.join(format!("{}.txt", self.chan_name))).unwrap();
+            let end_path = path.join(format!("{}.txt", self.chan_name));
+            let mut dump_file = File::create(&end_path).unwrap();
+            println!("{}", end_path.display());
             for x in msg_dump {
                 write!(dump_file, "{}", x).unwrap();
             }
@@ -47,7 +49,8 @@ impl RecursiveDump<'_> {
 fn parse_msg(txt: String, x1: &mut String, mut dump: &File) -> Result<Vec<String>, Box<dyn std::error::Error>> {
     let mut msg_vec: Vec<String> = vec![];
     write!(dump, "{}\n", txt).unwrap();
-    match from_str::<MessageStruct>(&*txt) {
+    let msg = from_str::<MessageStruct>(&*txt);
+    match msg {
         Ok(parse) => {
             let mut atta = String::new();
             for msg in &parse {
@@ -62,8 +65,8 @@ fn parse_msg(txt: String, x1: &mut String, mut dump: &File) -> Result<Vec<String
                 atta.clear();
             }
         }
-        Err(e) => {
-            eprintln!("Error: {e}");
+        Err(ref e) => {
+            eprintln!("Error: {e}\n{}", from_str::<ErrorParse>(&*txt).unwrap().message);
         }
     };
     Ok(msg_vec)
@@ -76,4 +79,11 @@ async fn dm_dump_first_request(client: &Client, channel_id: &str) -> Option<Stri
 async fn dm_dump_recursion(client: &Client, channel_id: &str, last_message_id: String) -> Option<String> {
     let url = format!("https://discord.com/api/v9/channels/{}/messages?before={}", channel_id, last_message_id);
     Token::http(&client, url).await
+}
+
+
+#[derive(Serialize, Deserialize)]
+pub struct ErrorParse {
+    message: String,
+    code: i32
 }
